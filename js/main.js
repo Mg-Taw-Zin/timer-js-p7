@@ -29,6 +29,7 @@ function startTimer() {
 function stopTimer() {
   clearInterval(interval);
   start.classList.remove("disable");
+  clearInterval(interval);
 }
 function resetTimer() {
   clearInterval(interval);
